@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lourdian Innovation Hub | Lourdes Matha College of Science and Technology</title>
+    <meta name="description" content="Lourdian Innovation Hub (LIH) of Lourdes Matha College of Science and Technology. Fostering creativity, startups, and entrepreneurship under Kerala Startup Mission.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for some standard interface icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">Lourdian</span> Innovation Hub
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#objectives" class="nav-link">Objectives</a>
+                <a href="#activities" class="nav-link">Activities</a>
+                <a href="#why-join" class="nav-link">Why Join?</a>
+                <a href="#idea-portal" class="nav-link idea-link">Submit Idea</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#idea-portal" class="btn btn-primary btn-sm">Submit Idea</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-badge reveal">
+                    <span class="badge-dot"></span> Under Kerala Startup Mission (KSUM)
+                </div>
+                <h1 class="hero-title reveal">
+                    Igniting Minds, <br>
+                    <span class="text-gradient">Fostering Innovation</span>
+                </h1>
+                <p class="hero-lead reveal">
+                    The Lourdian Innovation Hub (LIH) of Lourdes Matha College of Science and Technology is a dynamic ecosystem established to foster creativity, startup culture, and global impact.
+                </p>
+                <div class="hero-btns reveal">
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                    <a href="#idea-portal" class="btn btn-primary">
+                        Submit Your Idea <i class="fa-solid fa-arrow-right icon-right"></i>
+                    </a>
+                </div>
+
+                <!-- Stats Summary Panel -->
+                <div class="hero-stats reveal">
+                    <div class="stat-card">
+                        <div class="stat-num" data-val="10">0+</div>
+                        <div class="stat-label">Major Event Formats</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num" data-val="500">0+</div>
+                        <div class="stat-label">Aspiring Innovators</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num" data-val="5">0+</div>
+                        <div class="stat-label">Key Objectives Core</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">Who We Are</span>
+                    <h2 class="section-title">Nurturing Tomorrow's Entrepreneurs</h2>
+                    <p class="section-desc">
+                        We function as a collaborative platform that transforms innovative ideas from students and faculty members into impactful real-world industrial and social solutions.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Main About Block -->
+                    <div class="about-card main-about reveal">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <h3>The Ecosystem</h3>
+                        <p>
+                            Functioning under the guidance of <strong>Kerala Startup Mission (KSUM)</strong>, the Lourdian Innovation Hub at LMCST provides a highly supportive, technology-enabled environment. We bridge the gap between academic theory and industry practice, helping minds explore boundaries and launch scalable ventures.
+                        </p>
+                    </div>
+
+                    <!-- Vision & Mission Blocks -->
+                    <div class="about-card vision-card reveal">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <h3>Vision</h3>
+                        <blockquote>
+                            “To be an aspirational Technology Business Incubator (TBI) for student entrepreneurs within the campus that strengthens the educational system, bridges the gap between industry and academia, and promotes national, economic, and social growth.”
+                        </blockquote>
+                    </div>
+
+                    <div class="about-card mission-card reveal">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-bullseye"></i>
+                        </div>
+                        <h3>Mission</h3>
+                        <blockquote>
+                            “To create a self-sustained ecosystem with adequate infrastructure and technological advancements that empowers interaction between student innovators and faculty mentors, promotes collaboration with industries and academic institutions across the globe, and nurtures successful entrepreneurs.”
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Objectives Section -->
+        <section id="objectives" class="objectives section-padding bg-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">Our Pillars</span>
+                    <h2 class="section-title">Key Strategic Objectives</h2>
+                    <p class="section-desc">
+                        Our structured plan is engineered to cover all aspects of startup development, technical skill empowerment, and supportive academic policy.
+                    </p>
+                </div>
+
+                <div class="objectives-grid">
+                    <div class="obj-card reveal">
+                        <div class="obj-num">01</div>
+                        <h3>Entrepreneurial Culture</h3>
+                        <p>To develop a thriving, proactive entrepreneurial mindset among students, faculty members, and active alumni networks.</p>
+                    </div>
+                    <div class="obj-card reveal">
+                        <div class="obj-num">02</div>
+                        <h3>Innovation & Research</h3>
+                        <p>To promote innovation-driven entrepreneurship by integrating student academic projects and advanced research initiatives.</p>
+                    </div>
+                    <div class="obj-card reveal">
+                        <div class="obj-num">03</div>
+                        <h3>Social Impact</h3>
+                        <p>To encourage the design, planning, and development of highly innovative products targeting real-world social and industrial relevance.</p>
+                    </div>
+                    <div class="obj-card reveal">
+                        <div class="obj-num">04</div>
+                        <h3>Incubation & Startups</h3>
+                        <p>To systematically facilitate seed startup initiatives emerging from creative student minds and experienced faculty members.</p>
+                    </div>
+                    <div class="obj-card reveal">
+                        <div class="obj-num">05</div>
+                        <h3>Empowering Women</h3>
+                        <p>To provide targeted guidance, specialized resources, and dedicated startup support systems for aspiring women entrepreneurs.</p>
+                    </div>
+                    <div class="obj-card reveal">
+                        <div class="obj-num">06</div>
+                        <h3>Ecosystem Synergy</h3>
+                        <p>To strengthen the collaboration pipelines between modern industry leaders, academic nodes, and the Kerala startup ecosystem.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+        <section id="activities" class="activities section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">What We Do</span>
+                    <h2 class="section-title">Major Activities & Formats</h2>
+                    <p class="section-desc">
+                        Our dynamic yearly calendar comprises an array of events and resources built to scale technology and business concepts.
+                    </p>
+                </div>
+
+                <div class="activities-grid">
+                    <!-- Activity 1 -->
+                    <div class="activity-card reveal">
+                        <div class="activity-icon">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+                        <h3>Idea Pitching Sessions</h3>
+                        <p>Present, evaluate, and validate your raw innovative business concepts in front of expert juries and receive actionable development advice.</p>
+                    </div>
+                    <!-- Activity 2 -->
+                    <div class="activity-card reveal">
+                        <div class="activity-icon">
+                            <i class="fa-solid fa-cubes"></i>
+                        </div>
+                        <h3>Startup Bootcamps</h3>
+                        <p>Immersive, multi-day training camps detailing market fit, target customer profiles, and initial startup operations.</p>
+                    </div>
+                    <!-- Activity 3 -->
+                    <div class="activity-card reveal">
+                        <div class="activity-icon">
+                            <i class="fa-solid fa-chalkboard-user"></i>
+                        </div>
+                        <h3>Innovation Workshops</h3>
+                        <p>Hands-on collaborative sessions on design thinking, product prototyping cycles, and emerging technological trends.</p>
+                    </div>
+                    <!-- Activity 4 -->
+                    <div class="activity-card reveal">
+                        <div class="activity-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3>Hackathons & Ideathons</h3>
+                        <p>Competitive high-energy design sprints challenging participants to solve complex social and industrial hurdles in absolute record time.</p>
+                    </div>
+                    <!-- Activity 5 -->
+                    <div class="activity-card reveal">
+                        <div class="activity-icon">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+                        <h3>Technical Skill Programs</h3>
+                        <p>Workshops focusing on programming paradigms, web systems, robotics, IoT, AI, and practical engineering skills.</p>
+                    </div>
+                    <!-- Activity 6 -->
+                    <div class="activity-card reveal">
+                        <div class="activity-icon">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                        <h3>Entrepreneurship Programs (EDP)</h3>
+                        <p>Targeted courses detailing legal startup structures, IP management, patent registration, and initial venture planning.</p>
+                    </div>
+                    <!-- Activity 7 -->
+                    <div class="activity-card reveal">
+                        <div class="activity-icon">
+                            <i class="fa-solid fa-handshake"></i>
+                        </div>
+                        <h3>Industry Interactions</h3>
+                        <p>Direct dialogue channels and interactive firesides with corporate leaders, technology directors, and industry mentors.</p>
+                    </div>
+                    <!-- Activity 8 -->
+                    <div class="activity-card reveal">
+                        <div class="activity-icon">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <h3>Mentorship & Guidance</h3>
+                        <p>Long-term access to specialized technological mentors, financial advisors, and operational business experts.</p>
+                    </div>
+                    <!-- Activity 9 -->
+                    <div class="activity-card reveal">
+                        <div class="activity-icon">
+                            <i class="fa-solid fa-microchip"></i>
+                        </div>
+                        <h3>Prototype Development</h3>
+                        <p>Financial grants, computational resources, and physical lab workspace guidance to convert early thoughts into dynamic MVPs.</p>
+                    </div>
+                    <!-- Activity 10 -->
+                    <div class="activity-card reveal">
+                        <div class="activity-icon">
+                            <i class="fa-solid fa-network-wired"></i>
+                        </div>
+                        <h3>Startup Networking Events</h3>
+                        <p>Exclusive platform sessions to connect with Kerala Startup Mission nodes, venture capitalists, and co-founders.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Join Section -->
+        <section id="why-join" class="why-join section-padding bg-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">Your Gateway</span>
+                    <h2 class="section-title">Why Join Lourdian Innovation Hub?</h2>
+                    <p class="section-desc">
+                        Joining the Lourdian Innovation Hub family unlocks a high-value toolkit of technical and entrepreneurial benefits that will set your career and vision apart.
+                    </p>
+                </div>
+
+                <div class="why-grid">
+                    <div class="why-img-block reveal">
+                        <div class="why-card-spotlight">
+                            <div class="spotlight-header">
+                                <span class="spotlight-tag">JOIN US TODAY</span>
+                                <h3>Be the Catalyst of Change</h3>
+                            </div>
+                            <p>We provide the resources, the networking, and the framework. All we need from you is your curiosity and drive. Start your journey from student to leader.</p>
+                            <ul class="why-bullets">
+                                <li><i class="fa-solid fa-circle-check text-accent"></i> Access to global startup mentorship</li>
+                                <li><i class="fa-solid fa-circle-check text-accent"></i> Exposure to professional ecosystems</li>
+                                <li><i class="fa-solid fa-circle-check text-accent"></i> Hands-on experience with MVP prototyping</li>
+                                <li><i class="fa-solid fa-circle-check text-accent"></i> Academic & startup network support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="why-features-block">
+                        <!-- Card 1 -->
+                        <div class="why-feat-card reveal">
+                            <div class="feat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div>
+                                <h4>Academic & Real-World Synthesis</h4>
+                                <p>Bridge the divide between text-book learning and industrial requirements by constructing working models.</p>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="why-feat-card reveal">
+                            <div class="feat-icon"><i class="fa-solid fa-people-group"></i></div>
+                            <div>
+                                <h4>Vibrant Collaborative Network</h4>
+                                <p>Build connections that survive graduation—work alongside engineers, marketers, and developers.</p>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="why-feat-card reveal">
+                            <div class="feat-icon"><i class="fa-solid fa-award"></i></div>
+                            <div>
+                                <h4>Platform Recognition & Funding</h4>
+                                <p>Gain support systems to pitch at KSUM events, win national hackathons, and receive seed grants.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Idea Submission Portal -->
+        <section id="idea-portal" class="idea-portal section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">Innovation Desk</span>
+                    <h2 class="section-title">Have an Innovative Idea?</h2>
+                    <p class="section-desc">
+                        Submit your innovative thoughts or technology-enabled projects directly to the Lourdian Innovation Hub. We will review it and provide professional guidance!
+                    </p>
+                </div>
+
+                <div class="portal-container reveal">
+                    <div class="portal-info">
+                        <h3>Idea Pitch Portal</h3>
+                        <p>Submit your creative thoughts. The Lourdian Innovation Hub panel will evaluate submissions for:</p>
+                        <ul class="portal-check-list">
+                            <li><i class="fa-solid fa-check"></i> Technical feasibility and innovation score</li>
+                            <li><i class="fa-solid fa-check"></i> Social and economic impact</li>
+                            <li><i class="fa-solid fa-check"></i> Prototyping readiness and MVP timeline</li>
+                        </ul>
+                        <div class="portal-mascot">
+                            <i class="fa-solid fa-brain-circuit"></i>
+                            <div>
+                                <strong>💡 Quick Tip:</strong>
+                                <span class="tip-text">Start with identifying a specific daily problem, then design the tech-driven solution around it!</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portal-form-wrapper">
+                        <form id="ideaForm" class="portal-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="studentName">Full Name *</label>
+                                    <input type="text" id="studentName" required placeholder="e.g., Jane Doe">
+                                </div>
+                                <div class="form-group">
+                                    <label for="studentEmail">Email Address *</label>
+                                    <input type="email" id="studentEmail" required placeholder="e.g., name@example.com">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="studentBranch">Department & Semester *</label>
+                                    <input type="text" id="studentBranch" required placeholder="e.g., CSE S6">
+                                </div>
+                                <div class="form-group">
+                                    <label for="ideaCategory">Idea Category *</label>
+                                    <select id="ideaCategory" required>
+                                        <option value="" disabled selected>Select category...</option>
+                                        <option value="software">Software / SaaS / Mobile App</option>
+                                        <option value="hardware">Hardware / IoT / Robotics</option>
+                                        <option value="social">Social Entrepreneurship / Green Tech</option>
+                                        <option value="other">Other Unique Concept</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="ideaTitle">Idea Title / Venture Name *</label>
+                                <input type="text" id="ideaTitle" required placeholder="e.g., Smart Irrigation Grid System">
+                            </div>
+                            <div class="form-group">
+                                <label for="ideaDesc">Describe the Idea & Problem Solved *</label>
+                                <textarea id="ideaDesc" rows="4" required placeholder="Outline the user problem, your technology solution, and how Lourdian Innovation Hub can guide you."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Submit to Lourdian Innovation Hub <i class="fa-solid fa-paper-plane icon-right"></i>
+                            </button>
+                        </form>
+
+                        <!-- Submission Success View -->
+                        <div id="formSuccess" class="form-success-message hidden">
+                            <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+                            <h3>Idea Submitted Successfully!</h3>
+                            <p>Thank you for initiating your innovation. Our Nodal Officer and mentors will review the details and get back to you shortly at the provided email.</p>
+                            <div class="submitted-details">
+                                <strong>Ticket:</strong> <span id="ticketId">#LIH-9921</span>
+                            </div>
+                            <button id="resetFormBtn" class="btn btn-secondary btn-sm">Submit Another Idea</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Live Submissions Drawer (Reads from LocalStorage) -->
+                <div class="live-ideas-section reveal" id="liveIdeasSection">
+                    <h3>Your Saved Idea Submissions</h3>
+                    <div id="liveIdeasGrid" class="live-ideas-grid">
+                        <div class="no-ideas">No submissions registered in this browser yet. Submit the form above to see your concept live!</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding bg-alt">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="subtitle">Get In Touch</span>
+                    <h2 class="section-title">Connect with Lourdian Innovation Hub</h2>
+                    <p class="section-desc">
+                        Have queries about funding, incubation facilities, upcoming bootcamps, or events? Speak to us directly.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Nodal Officer Card -->
+                    <div class="nodal-card reveal">
+                        <div class="nodal-badge">Nodal Officer</div>
+                        <div class="nodal-avatar">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <h3>Akshay Krishna A</h3>
+                        <p class="nodal-title">Nodal Officer – Lourdian Innovation Hub, LMCST</p>
+                        
+                        <div class="nodal-contact-details">
+                            <a href="tel:+919495339212" class="contact-item">
+                                <div class="item-icon"><i class="fa-solid fa-phone"></i></div>
+                                <span>+91 94953 39212</span>
+                            </a>
+                            <a href="mailto:akshay.krishna@lmcst.ac.in" class="contact-item">
+                                <div class="item-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <span>akshay.krishna@lmcst.ac.in</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- LMCST Address and Map Details -->
+                    <div class="location-card reveal">
+                        <h3>Campus Coordinates</h3>
+                        <p class="campus-address">
+                            <strong>Lourdes Matha College of Science and Technology</strong><br>
+                            Lourdes Hills, Kuttichal, Trivandrum,<br>
+                            Kerala, India - PIN 695574
+                        </p>
+                        
+                        <div class="coord-details">
+                            <div class="coord-item">
+                                <i class="fa-solid fa-university text-accent"></i>
+                                <span>Affiliated to APJ Abdul Kalam Technological University (KTU)</span>
+                            </div>
+                            <div class="coord-item">
+                                <i class="fa-solid fa-shield-halved text-accent"></i>
+                                <span>Approved by AICTE, New Delhi</span>
+                            </div>
+                        </div>
+
+                        <!-- Elegant Quick Links / Socials -->
+                        <div class="social-links-wrapper">
+                            <h4>Ecosystem Links</h4>
+                            <div class="social-flex">
+                                <a href="https://startupmission.kerala.gov.in/" target="_blank" class="social-badge ksum-badge">
+                                    <span class="dot red-dot"></span> Kerala Startup Mission
+                                </a>
+                                <a href="http://lmcst.ac.in/" target="_blank" class="social-badge college-badge">
+                                    <span class="dot blue-dot"></span> LMCST Portal
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo"><span class="logo-accent">Lourdian</span> Innovation Hub</a>
+                <p>Establishing a dynamic technology-driven startup incubation model inside the college campus to foster the innovators of today into leaders of tomorrow.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#objectives">Objectives</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#idea-portal">Idea Portal</a></li>
+                </ul>
+            </div>
+            <div class="footer-affil">
+                <h4>Ecosystem Partners</h4>
+                <div class="partner-logos">
+                    <span class="partner-tag">Kerala Startup Mission</span>
+                    <span class="partner-tag">LMCST</span>
+                    <span class="partner-tag">TBI Incubator</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; 2026 Lourdian Innovation Hub. All Rights Reserved. Designed with Excellence.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Link -->
+    <script src="script.js"></script>
+</body>
+</html>
